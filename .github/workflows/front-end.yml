@@ -7,7 +7,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'front-end/**'
+    - 'ci-cd-front-end/**'
 
 jobs:
   deployment:
